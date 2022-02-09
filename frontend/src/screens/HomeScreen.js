@@ -7,7 +7,7 @@ import products from '../products'
 const HomeScreen = () => {
     return (
 
-    <>
+    <div>
 
         <h1>
             Latest Products
@@ -20,7 +20,7 @@ const HomeScreen = () => {
                 ))}
             </Row>
 
-    </>
+    </div>
     );
 };
 
