@@ -1,0 +1,24 @@
+{
+  "name": "sc-app",
+  "version": "1.0.0",
+  "description": "MERN shopping Cart App",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Herostar01/eCommerce-Site-Project.git"
+  },
+  "author": "M Shahbaz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Herostar01/eCommerce-Site-Project/issues"
+  },
+  "homepage": "https://github.com/Herostar01/eCommerce-Site-Project#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.2"
+  }
+}
