@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "MERN shopping Cart App",
   "main": "server.js",
+  "type": "module",
   "scripts": {
     "start": "node backend/server",
     "server": "nodemon backend/server",
@@ -21,9 +22,11 @@
   },
   "homepage": "https://github.com/Herostar01/eCommerce-Site-Project#readme",
   "dependencies": {
+    "colors": "^1.4.0",
     "cors": "^2.8.5",
     "dotenv": "^16.0.0",
-    "express": "^4.17.2"
+    "express": "^4.17.2",
+    "mongoose": "^6.2.1"
   },
   "devDependencies": {
     "concurrently": "^7.0.0",
