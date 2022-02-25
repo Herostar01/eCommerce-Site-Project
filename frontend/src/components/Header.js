@@ -12,7 +12,7 @@ const Header = () => {
   <Container>
 
     <Link to='/' >
-      <Navbar.Brand > Tech ProShop </Navbar.Brand>
+      <Navbar.Brand > Tech ProShop </Navbar.Brand> 
     </Link>
 
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
