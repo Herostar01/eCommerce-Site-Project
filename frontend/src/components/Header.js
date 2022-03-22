@@ -23,7 +23,7 @@ const Header = () => {
 
   const profileScreenHandler = () => {
     history.push('/profile')
-    console.log("Clicked profile history action")
+    console.log("Clicked profile Use History action")
   }
 
 
